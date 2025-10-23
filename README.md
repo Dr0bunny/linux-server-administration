@@ -31,7 +31,7 @@ This repository documents my journey in learning Linux server administration thr
 - Firewall Configuration
 - Service Hardening
 
-### Phase 3: Monitoring & Maintenance (Upcoming)
+### Phase 3: Monitoring & Maintenance
 - Log Management
 - System Monitoring
 - Backup & Recovery
@@ -83,12 +83,7 @@ Through this project, I have gained practical experience in:
   - Password policy enforcement
   - Intrusion prevention with Fail2Ban
   - Security audit and verification
-
-- **Documentation Skills**
-  - Technical writing
-  - Creating reproducible configurations
-  - Knowledge sharing
-
+ 
 
 **User Accounts:**
 | Username | Role | Sudo Access | Purpose |
@@ -97,9 +92,3 @@ Through this project, I have gained practical experience in:
 | dbadmin | Database Administrator | Database services only | Manage MySQL/PostgreSQL |
 | developer | Developer | Read-only system access | Development and testing |
 | auditor | Security Auditor | No sudo (read-only via groups) | Security monitoring and audits |
-
-
-
-
-
-**Disclaimer:** This repository is for educational purposes. Always follow your organization's security policies and compliance requirements in production environments.
