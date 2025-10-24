@@ -1,1 +1,10 @@
+# Web admin - can manage web services
+webadmin ALL=(ALL) /usr/bin/systemctl start apache2, /usr/bin/systemctl stop apache2, /usr/bin/systemctl restart apache2, /usr/bin/systemctl status apache2, /usr/bin/systemctl start nginx, /usr/bin/systemctl stop nginx, /usr/bin/systemctl restart nginx, /usr/bin/systemctl status nginx
 
+# Database admin - can manage database services
+dbadmin ALL=(ALL) /usr/bin/systemctl start mysql, /usr/bin/systemctl stop mysql, /usr/bin/systemctl restart mysql, /usr/bin/systemctl status mysql, /usr/bin/systemctl start postgresql, /usr/bin/systemctl stop postgresql, /usr/bin/systemctl restart postgresql, /usr/bin/systemctl status postgresql
+
+# Developer - very limited read-only sudo access
+developer ALL=(ALL) /usr/bin/systemctl status *, /bin/journalctl
+
+# Auditor - no sudo needed (will use groups for read access)
