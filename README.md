@@ -2,6 +2,8 @@
 
 A comprehensive hands-on project documenting the deployment, configuration, and hardening of a production-ready Ubuntu Server. This project demonstrates essential system administration skills with a strong focus on security best practices.
 
+![image alt](https://github.com/Dr0bunny/linux-server-administration/blob/main/screenshots/Screenshot-01.png?raw=true)
+
 ## Project Overview
 
 This repository documents my journey in learning Linux server administration through practical implementation. Each task is completed with security in mind, following industry best practices and the principle of least privilege.
