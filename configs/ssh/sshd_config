@@ -1,1 +1,9 @@
+sudo nano /etc/ssh/sshd_config
+
+Port 2222
+PermitRootLogin no
+PasswordAuthentication no
+PubkeyAuthentication yes
+PermitEmptyPasswords no
+MaxAuthTries 3
 
