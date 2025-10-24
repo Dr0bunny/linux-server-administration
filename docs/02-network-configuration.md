@@ -24,3 +24,19 @@ network:
         addresses: [192.168.1.1]
 ```
 [Configuration File](../configs/netplan/00-installer-config.yaml)
+
+---
+
+### Applied Configuration
+
+```bash
+# Test configuration safely
+sudo netplan try
+
+# Apply permanently
+sudo netplan apply
+
+# Verify
+ip addr show enp0s3
+ip route show
+```
