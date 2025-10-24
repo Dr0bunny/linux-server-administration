@@ -15,6 +15,10 @@ This repository documents my journey in learning Linux server administration thr
 - **Network Configuration:** Netplan
 - **Security Tools:** Fail2Ban, UFW 
 - **Authentication:** OpenSSH with ED25519 key-based authentication
+- **Web Server:** Apache / Nginx
+- **Database:** MySQL / PostgreSQL  
+- **Monitoring Tools:** AIDE, Logwatch, Lynis
+- **Automation:** Bash scripts, Cron jobs
 
 ##  Project Status
 
@@ -62,28 +66,7 @@ This repository documents my journey in learning Linux server administration thr
 -  Static IP configuration for consistent access
 -  UFW firewall enabled and configured
 -  Only necessary ports exposed
-
-
-##  Learning Outcomes
-
-Through this project, I have gained practical experience in:
-
-- **Linux System Administration**
-  - Server deployment and configuration
-  - User and permission management
-  - Service management with systemd
   
-- **Network Configuration**
-  - Static IP configuration with Netplan
-  - Firewall rules and network security
-  - SSH remote administration
-
-- **Security Hardening**
-  - SSH security best practices
-  - Password policy enforcement
-  - Intrusion prevention with Fail2Ban
-  - Security audit and verification
- 
 
 **User Accounts:**
 | Username | Role | Sudo Access | Purpose |
