@@ -10,8 +10,6 @@ Configured a static IP using **Netplan** to ensure consistent network identity.
 
 ---
 
-**🗂️ Configuration File:** `/configs/netplan/00-installer-config.yaml`
-
 ```yaml
 # Netplan configuration for static IP
 network:
@@ -26,4 +24,4 @@ network:
       nameservers:
         addresses: [192.168.1.1]
 ```
-[Configuration File](../configs/00-installer-config.yaml)
+[Configuration File](../configs/netplan/00-installer-config.yaml)
