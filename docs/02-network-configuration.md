@@ -11,7 +11,6 @@ Configured a static IP using **Netplan** to ensure consistent network identity.
 ---
 
 ```yaml
-# Netplan configuration for static IP
 network:
   version: 2
   renderer: networkd
