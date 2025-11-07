@@ -17,11 +17,9 @@ sudo systemctl status apache2
 ```bash
 # create directory for our webite
 sudo mkdir /var/www/company.net/html
-
-sudo nano index.html
 echo "I'm running this website on an Ubuntu Server !" > /var/www/company.net/html/index.html
 
-# changes the ownership of 'company.net' directory
+# changes the ownership of 'company.net' directory to low privileged user
 sudo chown -R www-data:www-data /var/www/company.net/html/
 ```
 
