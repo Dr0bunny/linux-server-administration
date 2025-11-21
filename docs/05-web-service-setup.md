@@ -28,5 +28,7 @@ sudo chown -R www-data:www-data /var/www/company.net/html/
 ### Virtual Host Setup
 
 ```bash
-
+sudo nano /etc/apache2/sites-available/company.local.conf
 ```
+
+[Read the intro](configs/apache2/company.net.conf)
