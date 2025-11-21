@@ -32,3 +32,8 @@ sudo nano /etc/apache2/sites-available/company.local.conf
 ```
 
 [config file](/configs/apache2/company.net.conf)
+
+---
+
+### setup SSL certificate
+
