@@ -21,4 +21,28 @@ source venv/bin/activate
 
 pip3 install flask 
 ```
+
+### Update company.net.conf file
+
+```bash
+<VirtualHost *:80>
+    ServerName company.net
+    ServerAlias company.net
+    ServerAdmin webmaster@company.net
+    
+    DocumentRoot /var/www/company.net/html
+    
+    # WSGI Configuration for Flask
+    WSGIDaemonProcess flaskapp python-home=/var/www/company.net/app/venv python-path=/var/www/company.net/app
+    WSGIProcessGroup flaskapp
+    WSGIScriptAlias / /var/www/company.net/app/app.wsgi
+
+    <Directory /var/www/company.net/app>
+        Require all granted
+    </Directory>
+
+    ErrorLog /var/www/company.net/logs/error.log
+    CustomLog /var/www/company.net/logs/access.log combined
+</VirtualHost>
+```
  
