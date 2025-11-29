@@ -30,8 +30,6 @@ pip3 install flask
     ServerAlias company.net
     ServerAdmin webmaster@company.net
     
-    DocumentRoot /var/www/company.net/html
-    
     # WSGI Configuration for Flask
     WSGIDaemonProcess flaskapp python-home=/var/www/company.net/app/venv python-path=/var/www/company.net/app
     WSGIProcessGroup flaskapp
